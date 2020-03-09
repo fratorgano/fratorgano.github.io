@@ -1,0 +1,37 @@
+a {
+    color: inherit;
+}
+a:hover {
+    color: darkgray;
+}
+.padding {
+    padding-left: 2.5%;
+    padding-top: 1%;
+    padding-right: 2.5%;
+}
+.menu-title {
+    font-weight: 600;
+}
+.main-title {
+    font-weight: 600;
+    padding-top: 10%;
+    padding-bottom: 1%;
+}
+.subtitle{
+    font-weight: 400;
+    padding-bottom: 3%;
+}
+.nav-link.current{
+    padding-bottom: 0;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+    color: black !important;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-white{
+    padding-bottom: 2%;
+}
+.profile-image {
+    max-height: 23% !important;
+    max-width: 23% !important;
+    min-height: 23% !important;
+    min-width: 23% !important;
+}
