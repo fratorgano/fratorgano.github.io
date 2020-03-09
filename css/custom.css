@@ -14,7 +14,7 @@ a:hover {
 }
 .main-title {
     font-weight: 600;
-    padding-top: 10%;
+    padding-top: 6%;
     padding-bottom: 1%;
 }
 .subtitle{
@@ -28,6 +28,9 @@ a:hover {
 }
 .navbar.navbar-expand-lg.navbar-light.bg-white{
     padding-bottom: 2%;
+}
+.menu-image {
+    width: 20px;
 }
 .profile-image {
     max-height: 23% !important;
