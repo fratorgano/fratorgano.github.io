@@ -11,6 +11,7 @@ a:hover {
 }
 .menu-title {
     font-weight: 600;
+    color: #13b479
 }
 .main-title {
     font-weight: 600;
@@ -23,7 +24,7 @@ a:hover {
 }
 .nav-link.current{
     padding-bottom: 0;
-    border-bottom: 1px solid rgba(0,0,0,.5);
+    border-bottom: 1px solid #13b479;
     color: black !important;
 }
 .navbar.navbar-expand-lg.navbar-light.bg-white{
@@ -31,6 +32,9 @@ a:hover {
 }
 .menu-image {
     width: 20px;
+}
+.bottom-image {
+    padding-top: 5.47%;
 }
 .profile-image {
     max-height: 23% !important;
