@@ -39,6 +39,12 @@ a:hover {
 .greetings{
     font-weight: 700;
 }
+.bio{
+    font-weight: 300;
+}
+.container-fluid.green .container{
+    max-width: 65%;
+}
 .navbar.navbar-expand-lg.navbar-light.bg-white{
     padding-bottom: 2%;
 }
