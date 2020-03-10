@@ -32,12 +32,9 @@ a:hover {
 }
 .green{
     background-color: #13b479;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 10%;
     color: white;
-}
-.green .text-center{
-    /* max-width: 50%; */
 }
 .greetings{
     font-weight: 700;
