@@ -151,11 +151,6 @@ a:hover {
 .footer-copyright {
     padding-top: 1%;
 }
-.gallery-padding{
-    padding-left: 3%;
-    padding-top: 1%;
-    padding-right: 3%;
-}
 .gallery-photo{
     border-radius: 5px 5px 5px 5px;
     width: 100%;
@@ -164,13 +159,12 @@ a:hover {
     min-height: 20%;
 }
 .gallery-container{
-    max-width: 85%;
     padding-left: 3%;
     padding-right: 3%;
 }
 .gallery-col{
     padding-bottom: 1.5%;
 }
-.form-group label{
-    margin-top: 5%;
+.form-group .input{
+    border-bottom: 4%;
 }
