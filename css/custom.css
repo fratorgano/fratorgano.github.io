@@ -38,11 +38,11 @@ a:hover {
     color: white;
 }
 .greetings{
-    font-weight: 700;
+    font-weight: 600;
 }
 .bio{
     padding-top: 1.5%;
-    font-weight: 300;
+    font-weight: 400;
 }
 .container-fluid.d-flex.justify-content-center.align-items-center{
     padding-bottom: 5%;
