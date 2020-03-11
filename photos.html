@@ -2,15 +2,25 @@
 <html lang="en">
 
 <head>
-  <title>Bootstrap 4 Example</title>
+  <title>Francesco Torgano</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <script src="https://kit.fontawesome.com/92f346d216.js" crossorigin="anonymous"></script>
+  <meta name="Description" content="Personal website of Francesco Torgano, it's a portfolio for projects and passions">
+
+  <link rel="shortcut icon" type="image/png" href="images/icons/fantasma_fra-verdeoptimized.png" />
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Raleway: 400,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/custom.css">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
 
 </head>
 
@@ -20,36 +30,114 @@
     <!-- A grey horizontal navbar that becomes vertical on small screens -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
 
-      <a class="navbar-brand" href="#"><h3 class="title">Francesco Torgano</h3></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="index.html">
+        <h3 class="menu-title">Francesco Torgano</h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mr-4">
-            <a class="nav-link" href="index.html"><h5>Portfolio</h5></a>
+            <a class="nav-link" href="index.html">
+              <h5>Portfolio</h5>
+            </a>
           </li>
           <li class="nav-item mr-4">
-            <a class="nav-link current" href="photos.html"><h5>Photos</h5></a>
+            <a class="nav-link current" href="photos.html">
+              <h5>Photos</h5>
+            </a>
           </li>
           <li class="nav-item mr-4">
-            <a class="nav-link" href="contact.html"><h5>Contact</h5></a>
+            <a class="nav-link" href="contact.html">
+              <h5>Say Hello</h5>
+            </a>
           </li>
           <li class="nav-item mr-4">
-            <a class="nav-link" href="https://www.instagram.com/fratorgano/">
-              <h5><i class="fab fa-instagram"></i></h5>
+            <a class="nav-link" href="https://www.instagram.com/fratorgano/" target="_blank" rel="noreferrer">
+              <!--<i class="fab fa-instagram"></i>-->
+              <img src="images/icons/instagram.svg" alt="instagram" class="menu-image">
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://github.com/fratorgano">
-              <i class="fab fa-github"></i>
+            <a class="nav-link" href="https://github.com/fratorgano" target="_blank" rel="noreferrer">
+              <!-- <i class="fab fa-github"></i> -->
+              <img src="images/icons/cat.svg" alt="github" class="menu-image">
             </a>
           </li>
         </ul>
       </div>
-
     </nav>
   </div>
+  <div class="container-fluid gallery-container padding">
+    <div class="row gallery-row">
+      <div class="col-md">
+        <a class="" href="https://www.instagram.com/fratorgano/" target="_blank" rel="noreferrer">
+          <!--<i class="fab fa-instagram"></i>-->
+          <img src="images/photos/reflection.png" alt="duomo" class="gallery-photo">
+        </a>
+      </div>
+      <div class="col-md">
+        <a class="" href="https://www.instagram.com/fratorgano/" target="_blank" rel="noreferrer">
+          <!--<i class="fab fa-instagram"></i>-->
+          <img src="images/photos/duomo.jpg" alt="duomo" class="gallery-photo">
+        </a>
+      </div>
+      <div class="col-md">
+        <a class="" href="https://www.instagram.com/fratorgano/" target="_blank" rel="noreferrer">
+          <!--<i class="fab fa-instagram"></i>-->
+          <img src="images/photos/alba.jpg" alt="alba" class="gallery-photo">
+        </a>
+      </div>
+
+    </div>
+    <div class="row gallery-row">
+      <div class="col-md">
+        <a class="" href="https://www.instagram.com/fratorgano/" target="_blank" rel="noreferrer">
+          <!--<i class="fab fa-instagram"></i>-->
+          <img src="images/photos/numana.jpg" alt="numana" class="gallery-photo">
+        </a>
+      </div>
+      <div class="col-md">
+        <a class="" href="https://www.instagram.com/fratorgano/" target="_blank" rel="noreferrer">
+          <!--<i class="fab fa-instagram"></i>-->
+          <img src="images/photos/mare.jpg" alt="duomo" class="gallery-photo">
+        </a>
+      </div>
+      <div class="col-md">
+        <a class="" href="https://www.instagram.com/fratorgano/" target="_blank" rel="noreferrer">
+          <!--<i class="fab fa-instagram"></i>-->
+          <img src="images/photos/gatto.jpg" alt="mare" class="gallery-photo">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid padding-footer green-footer text-center">
+    <footer>
+      <h3 class="footer-title">Francesco Torgano</h3>
+
+      <div class="container" style="width: 15%">
+        <div class="row">
+          <div class="col project-box">
+            <a href="https://www.instagram.com/fratorgano/" target="_blank" rel="noreferrer">
+              <!--<i class="fab fa-instagram"></i>-->
+              <img src="images/icons/instagram2.svg" alt="instagram" class="menu-image">
+            </a>
+          </div>
+          <div class="col project-box ">
+            <a href="https://github.com/fratorgano" target="_blank" rel="noreferrer">
+              <!-- <i class="fab fa-github"></i> -->
+              <img src="images/icons/cat2.svg" alt="github" class="menu-image">
+            </a>
+          </div>
+        </div>
+      </div>
+      <h5 class="footer-copyright">Handmade by me © 2020</h5>
+    </footer>
+  </div>
+
 </body>
+
 </html>
