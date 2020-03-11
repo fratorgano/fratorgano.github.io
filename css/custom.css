@@ -12,9 +12,9 @@ a:hover {
     color: black;
 }
 .padding {
-    padding-left: 1%;
+    padding-left: 3%;
     padding-top: 1%;
-    padding-right: 1%;
+    padding-right: 3%;
 }
 .menu-title {
     font-weight: 600;
@@ -159,12 +159,13 @@ a:hover {
     min-height: 20%;
 }
 .gallery-container{
+    max-width: 85%;
     padding-left: 3%;
     padding-right: 3%;
 }
 .gallery-col{
     padding-bottom: 1.5%;
 }
-.form-group .input{
-    border-bottom: 4%;
+.form-group label{
+    margin-top: 5%;
 }
