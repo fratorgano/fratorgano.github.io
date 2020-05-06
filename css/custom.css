@@ -3,14 +3,22 @@ html {
   }
 body{
     font-family: 'Raleway', sans-serif;
+    /* font-family: 'Varela Round', sans-serif; */
+    opacity: 1;
+    transition: 1s opacity;
+}
+svg {
+    fill: white;
 }
 a {
     color: inherit;
+    
 }
-a:hover {
-    transition: color 1s;
-    color: black;
+a:hover{
+    color: inherit;
+    text-decoration: none;
 }
+
 .padding {
     padding-left: 1%;
     padding-top: 1%;
@@ -33,6 +41,10 @@ a:hover {
     padding-bottom: 0;
     border-bottom: 1px solid #13b479;
     color: #13b479 !important;
+}
+navbar a:hover {
+    transition: color 1s;
+    color: black;
 }
 .green{
     /* background-color: #13b479; */
@@ -58,7 +70,7 @@ a:hover {
     width: 20px;
 }
 .bottom-image {
-    padding-top: 5.6%;
+    padding-top: 5.3%;
 }
 .profile-image {
     max-height: 23% !important;
@@ -113,9 +125,12 @@ a:hover {
     margin-bottom: 2% !important;
     /* box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 4px #13b479; */
 }
+.project-box a{
+    color: #d9d9d9;
+}
 .project-box a:hover{
     transition: color 1s;
-    color: black;
+    color: white;
 }
 .project-logo{
     margin-top: 25%;
@@ -173,4 +188,53 @@ a:hover {
 }
 .form-group label{
     margin-top: 5%;
+}
+.under-navbar{
+    padding-top: 1.6%;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #292929 !important; 
+      color: white;
+    }
+    svg {
+        fill: #292929;
+    }
+    .green {
+        color: white;
+        background-image: linear-gradient(to bottom, #13b479, #13b479 45%, #292929 20%);
+    }
+    .padding-footer {
+        color: white;
+    }
+    .nav-link {
+        color: white !important;
+    }
+    .cards{
+        background-color: #292929;
+        color: white;
+        box-shadow: 0 5px 5px 0 black, 0 0 0 1px black;
+    }
+}
+
+.animate-in {
+    -webkit-animation: fadeIn .5s ease-in;
+    animation: fadeIn .5s ease-in;
+}
+
+.animate-out {
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
